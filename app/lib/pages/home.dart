@@ -73,6 +73,7 @@ class HomePage extends StatelessWidget {
     );
   }
 
+/*--------------------------POPULR DIET LIST /SECTION/-----------------------*/
   Column _popularlist() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -161,6 +162,7 @@ class HomePage extends StatelessWidget {
     );
   }
 
+/*-------------------------- DIET LISTS /SECTION/-----------------------*/
   Column _dietlits() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -252,6 +254,7 @@ class HomePage extends StatelessWidget {
     );
   }
 
+/*---------------------------TOP ITEMS LIST /SECTION/-----------------------*/
   Column _itemslists() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -311,6 +314,7 @@ class HomePage extends StatelessWidget {
     );
   }
 
+/*---------------------------SEARCH BAR /SECTION/-----------------------*/
   Container _searchField() {
     return Container(
       margin: const EdgeInsets.only(top: 40, left: 20, right: 20),
@@ -360,7 +364,7 @@ class HomePage extends StatelessWidget {
     );
   }
 
-/*-------------------------- TOP APP BAR-----------------------*/
+/*-------------------------- TOP APP BAR /SETION/-----------------------*/
 
   AppBar appBar() {
     return AppBar(
@@ -417,84 +421,9 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+/*USE FULL:
+// GestureDetector is for to click the buttons*/
 
 
 
-// or {n}
-// import 'package:flutter/material.dart';
-// import 'package:flutter_svg/flutter_svg.dart';
 
-// class HomePage extends StatelessWidget {
-//   const HomePage({super.key});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       appBar: AppBar(
-//         // this is the starting 'text'
-//         title: const Text(
-//           'Break Fast',
-//           style: TextStyle(
-//               color: Colors.black, fontSize: 18, fontWeight: FontWeight.bold),
-//         ),
-
-//         //this goes for the appbar
-//         backgroundColor: Colors.white,
-//         elevation: 0,
-//         centerTitle: true,
-
-//         //Here making buttons for LEFT and RIGHT side
-
-//         //leading used to put things in left side
-//         leading:
-
-//             // GestureDetector is for to click the buttons
-//             GestureDetector(
-//           onTap: () {
-//             //here we can call any function
-//           },
-//           child: Container(
-//             // this margin gives the space around that container
-//             margin: EdgeInsets.all(10),
-//             alignment: Alignment.center,
-
-//             child: SvgPicture.asset(
-//               'assets/icons/Arrow - left 2.svg',
-//               height: 20,
-//               width: 20,
-//             ),
-//             decoration: BoxDecoration(
-//                 color: Colors.black12, borderRadius: BorderRadius.circular(10)),
-//           ),
-//         ),
-
-//         //below is for the right button
-
-//         actions: [
-//           // GestureDetector is for to click the buttons
-//           GestureDetector(
-//             onTap: () {},
-//             child: Container(
-//               // this margin gives the space around that container
-//               margin: EdgeInsets.all(10),
-//               alignment: Alignment.center,
-//               width: 37,
-
-//               child: SvgPicture.asset(
-//                 'assets/icons/dots.svg',
-//                 height: 5,
-//                 width: 5,
-//               ),
-
-//               // width: 30,
-//               // height: 30,
-//               decoration: BoxDecoration(
-//                   color: Colors.black12,
-//                   borderRadius: BorderRadius.circular(10)),
-//             ),
-//           ),
-//         ],
-//       ),
-//     );
-//   }
-// }
