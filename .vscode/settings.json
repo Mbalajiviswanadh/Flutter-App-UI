@@ -1,0 +1,8 @@
+{
+    "emulator.emulatorPathWindows": "C:\\Users\\Lenovo\\AppData\\Local\\Android\\Sdk\\emulator",
+    "emulator.emulatorPath": "C:\\Users\\Lenovo\\AppData\\Local\\Android\\Sdk\\emulator",
+    "emulator.androidColdBoot": true,
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.colorTheme": "Dracula",
+    "workbench.preferredDarkColorTheme": "Default Dark+"
+}
